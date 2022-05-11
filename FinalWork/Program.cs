@@ -14,6 +14,7 @@ void ThreeOrLessSymbolString(string[] massiv)
         {
             Console.Write(massiv[i] + " ");
         }
+        else Console.WriteLine("There are more than 3 symbols.");
     }
 }
 
